@@ -5,11 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
-
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -21,99 +18,111 @@
 <body>
 
     <!-- header -->
+    <div class="hero-container">
 
-    <div class="header">
-        <img id="logo" src="img/vipr.png" alt="vipr">
-        <div class="topnav" id="myTopnav">
+        <div class="logo-container">
+            <img id="logo" src="img/vipr.png" alt="vipr"> </div>
+        <nav class="meny">
             <a class="active" href="#features">Features</a>
             <a href="#pricing">Pricing</a>
             <a href="#about">About</a>
             <a href="#requestAccess">Request access</a>
-        </div>
+        </nav>
+
     </div>
+
+
+
     <!-- header -->
 
 
 
     <div class="animated fadeInUp">
         <div class="overskrift">
-            <h1>Managing projects and copyrights is hard. Vipr radically changes that.</h1>
+            <h1>Managing projects and copyrights is hard. <br>Vipr radically changes that.</h1>
 
         </div>
     </div>
 
 
 
+    <!-- conteiner 1 begynner -->
 
-    <div class="container1">
+
+    <div class="container1 fadeItem" data-in-view="false">
         <div class="flex-item-1">
-            <h2>Cloud-based project- and copyright management from A to Z.
-            </h2>
-            <p>With the other project contributors you'll be able to plan and execute a campaign. During and after the campaign is active you'll have a complete oversight of its contracted terms. It's safe, professional and simple.</p>
+            <div id="text-scroll-1">
+                <h2>Cloud-based project- and copyright management from A to Z.
+                </h2>
+                <p>With the other project contributors you'll be able to plan and execute a campaign. During and after the campaign is active you'll have a complete oversight of its contracted terms. It's safe, professional and simple.</p>
+            </div>
         </div>
 
-        <div class="flex-item-2"><img id="mockup" src="img/skjerm.svg" alt="pc-skjerm"></div>
+        <div class="flex-item-2 "><img id="mockup" src="img/skjerm.svg" alt="pc-skjerm"></div>
     </div>
 
 
-    <div class="container2">
-        <div class="flex-item-3">
+    <!-- conteiner 2 begynner -->
 
-            <h2 class="dark">Companies are interested.</h2>
+
+    <div class="container2 fadeItem" data-in-view="false">
+        <div class="startText">
+            <h2>Companies are interested.</h2>
         </div>
-        <div class="flex-item-2">
+        <div class="flex-item-2-1">
             <h3>TinAgent
             </h3>
-            <p>We really see a huge potential for this platform and we are excited to start testing it soon.
-            </p>
+            <h3>We really see a huge potential for this platform and we are excited to start testing it soon.
+            </h3>
         </div>
 
-        <div class="flex-item 3">
+        <div class="flex-item-2-2">
             <h3>Heartbreak Management
             </h3>
-            <p>This could really end most of the disputes and confusion around copyright agreements in creative industries.
-            </p>
+            <h3>This could really end most of the disputes and confusion around copyright agreements in creative industries.
+            </h3>
         </div>
 
-        <div class="flex-item 4">
+        <div class="flex-item-2-3">
             <h3>Circle K
             </h3>
-            <p>We have been looking for something like this that could help us keeping track of our active licensing agreements.
-            </p>
+            <h3>We have been looking for something like this that could help us keeping track of our active licensing agreements.
+            </h3>
         </div>
 
-        <div class="flex-item 5">
-            <p>Let us know your thoughts.
-            </p>
-        </div>
     </div>
 
 
-
-
+    <!-- conteiner 3 begynner -->
 
     <div class="container3">
 
-        <div class="flex-item 1">
-            <h2>What type of contributor are you?</h2>
-            <p>Click on the branch you identify with to see how vipr can help you.</p>
-        </div>
-
-        <div class="flex-item 2">
-            <h2>Get involved.</h2>
-            <p> We’ll launch our beta version of VIPR in 2018. Interested in trying it out? Opt in below.</p>
-        </div>
-
-
+        <h2>What type of contributor are you?</h2>
+        <p>Click on the branch you identify with to see how vipr can help you.</p>
     </div>
+
+
+
+
+
+    <!-- conteiner 4 begynner -->
+
+    <div class="container4">
+
+        <h2>Get involved.</h2>
+        <p> We’ll launch our beta version of VIPR in 2018. <br>Interested in trying it out? Opt in below.</p>
+        <a href="#" class="button">Request accsess</a>
+    </div>
+
+    <!-- conteiner 5 begynner -->
+
 
     <div class="social">
-        <p>Social</p>
-        <a>Facebook</a>
-        <p>Talk to us</p>
-        <a>Contact</a>
-        <a>Support</a>
+
     </div>
+    <!-- conteiner 6 begynner -->
+
+
     <div class="footer">
         <h3>Copyright © VIPR 2017. All rights reserved.</h3>
     </div>
@@ -121,7 +130,7 @@
 
 
 
-
+    <script src="jquary.js"></script>
     <script src="script.js"></script>
 </body>
 
