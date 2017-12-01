@@ -1,0 +1,220 @@
+body {
+    background-color: #fff;
+    font-family: "calibre", sans-serif;
+
+}
+
+
+@font-face {
+    font-family: "calibre", sans-serif;
+    src: url("../font/Calibre-Regular.ttf");
+}
+
+.header {
+    width: 100vw;
+    height: 60px;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 90px;
+    height: auto;
+    padding: 10px;
+}
+
+#myTopnav {
+    float: right;
+}
+
+.topnav a {
+    float: right;
+    color: #282828;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: none;
+    color: #282828;
+}
+
+
+
+h1 {
+    font-size: 60px;
+    margin: 15px;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px;
+    font-size: 40px;
+}
+
+
+p {
+    margin: 20px;
+    font-size: 1em;
+}
+
+
+.overskrift {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.dark {
+    color: #282828;
+
+}
+
+
+#mockup {
+    width: 400px;
+    height: auto;
+    padding: 50px;
+    align-content: center;
+}
+
+@keyframes fadeInUp {
+    0% {
+        position: absolute;
+        bottom: -5rem;
+        opacity: 0;
+    }
+    75% {
+        position: absolute;
+        bottom: 25%;
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-1 {
+    min-width: 500px;
+    max-width: 700px;
+    flex-grow: 1;
+    order: row;
+    /* width: 50%; */
+    background-color: #282828;
+    color: #fff;
+
+}
+
+.flex-item-2 {
+    min-width: 500px;
+    max-width: 700px;
+    flex-grow: 1;
+    order: row;
+    /* width: 50%; */
+    background-color: #fff;
+    color: #282828;
+
+}
+
+.container2 {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-3 {
+    min-width: 500px;
+    max-width: 700px;
+    flex-grow: 1;
+    order: row;
+    width: 100%;
+    background-color: #fff;
+    clear: both;
+
+}
+
+.container3 {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #282828;
+    color: #fff;
+}
+
+.social {
+    margin-top: 150px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #a0a0a0;
+    padding: 50px;
+}
+
+.footer {
+
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #808080;
+    padding: 50px;
+}
+
+h3 {
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 40px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        margin: 20px;
+        font-size: 29px;
+    }
+    .topnav a {
+        float: right;
+        color: #282828;
+        text-align: center;
+        padding: 7px 6px;
+        text-decoration: none;
+        font-size: 0.8em;
+    }
+    .flex-item-2 {
+        margin: 0 auto;
+        display: block;
+
+    }
+}
