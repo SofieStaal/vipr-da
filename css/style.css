@@ -92,6 +92,13 @@
      font-size: 1.5em;
  }
 
+ h4 {
+
+     margin: 40px;
+     color: #000;
+     font-size: 1em;
+ }
+
 
  p {
      margin: 50px;
@@ -188,14 +195,21 @@
 
  .container2 {
      margin-top: 150px;
+     background-color: #282828;
+     color: #fff;
+ }
+
+ .container2-2 {
      align-items: center;
      display: flex;
      background-color: #282828;
      color: #fff;
  }
 
+
  .startText {
-     display: block;
+     text-align: center;
+     padding-top: 30px;
  }
 
 
@@ -228,15 +242,28 @@
  }
 
 
- .social {}
+ .social {
+     margin-top: 50px;
+     justify-content: center;
+     display: flex;
+ }
+
+ .fa .tw.ig {
+     display: flex;
+     width: 20px;
+     height: auto;
+     padding: 40px;
+     margin: 40px;
+
+ }
+
 
  .footer {
-     height: 100px;
+     padding: 20px;
+     height: 110px;
      width: 100%;
-     display: flex;
-     flex-wrap: wrap;
+     text-align: center;
      background-color: #808080;
-     padding: 50px;
  }
 
 
